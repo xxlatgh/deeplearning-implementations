@@ -42,11 +42,11 @@ python neural_style.py --content <content file> --styles <style file> --output<o
 To see the effect of various style layers on the results, I created these images by using only a single style layer. Based on the results below, to have a strong style, one can increase the weight for conv2_1, conv3_1 and conv4_1. To have a weaker style, one can increase the weight for conv1_1 and conv5_1. For comparison, the bengal tiger above has a weight average of all five layers with each layer contributing 20% of the style loss function.
 
 <div align="center">
-<img src="https://s3-us-west-2.amazonaws.com/temptosync/l1.png" width = "130">
-<img src="https://s3-us-west-2.amazonaws.com/temptosync/l2.png" width ="130">
-<img src="https://s3-us-west-2.amazonaws.com/temptosync/l3.png" width = "130">
-<img src="https://s3-us-west-2.amazonaws.com/temptosync/l4.png" width ="130">
-<img src="https://s3-us-west-2.amazonaws.com/temptosync/l5.png" width = "130">
+<img src="https://s3-us-west-2.amazonaws.com/temptosync/l1.png" width = "160">
+<img src="https://s3-us-west-2.amazonaws.com/temptosync/l2.png" width ="160">
+<img src="https://s3-us-west-2.amazonaws.com/temptosync/l3.png" width = "160">
+<img src="https://s3-us-west-2.amazonaws.com/temptosync/l4.png" width ="160">
+<img src="https://s3-us-west-2.amazonaws.com/temptosync/l5.png" width = "160">
 </div>
 *Rows*: image created using only a single style layer, respectively 'conv1_1', 'conv2_1', 'conv3_1', 'conv4_1', 'conv5_1'.  
 ## optimization
