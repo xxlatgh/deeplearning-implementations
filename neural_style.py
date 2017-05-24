@@ -125,7 +125,6 @@ def merge():
     '''
     returns an image of the neural style transfer
     '''
-    merge_result_path = '/home/nbuser/data/results/shipwreck/merge/block4_conv2/xinxin_style_loss'
 
     input_shape = style_arr.shape[1:]
     model = VGG16_Avg(include_top=False, input_shape=input_shape)
